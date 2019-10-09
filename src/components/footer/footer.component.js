@@ -15,7 +15,7 @@ class Footer extends Component {
         <div className="container">
           <div className="row">
             <div className="col l6 s12">
-              <h5 className="white-text"></h5>
+              <h5 className="white-text">Note</h5>
               <Bounce>
                 <p
                   className="grey-text text-lighten-4"
