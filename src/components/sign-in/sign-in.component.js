@@ -24,12 +24,9 @@ class SingIn extends React.Component {
   };
   render() {
     return (
-      <div
-        className="sign-in"
-        style={{ flexGrow: 1, flexShrink: 0, flexBasis: "auto" }}
-      >
+      <div className="sign-in">
         <h2> I already have an acoount </h2>
-        <span> Sign in with your email and password </span>
+        <span> Sign In with your email and password </span>
         <form onSubmit={this.handleSubmit}>
           <FormInput
             name="email"
