@@ -13,11 +13,7 @@ import Footer from "./components/footer/footer.component";
 import { auth, createUserProfileDocument } from "./firebase/firebase.utils";
 import { setCurrentUser } from "./redux/user/user.actions";
 import {selectCurrentUser } from "./redux/user/user.selectors";
-const HatsPage = () => (
-  <div>
-    <h1> Hats Page</h1>
-  </div>
-);
+
 class App extends React.Component {
   unsubscribeFromAuth = null;
   componentDidMount() {
@@ -46,9 +42,8 @@ class App extends React.Component {
         <Header />
         <Switch>
           <Route exact path="/" component={HomePage} />
-          <Route exact path="/shop/hats" component={HatsPage} />
+          <Route path="/shop" component={ShopPage} />
           <Route exact path="/checkout" component={CheckoutPage} />
-          <Route exact path="/shop" component={ShopPage} />
           <Route
             exact
             path="/signin"
