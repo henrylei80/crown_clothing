@@ -57,6 +57,14 @@ class Footer extends Component {
                     Movies rating Website
                   </a>
                 </li>
+                <li>
+                  <a
+                    className="grey-text text-lighten-3"
+                    href="https://amazingemail.herokuapp.com"
+                  >
+                    Email Marketing Website
+                  </a>
+                </li>
               </ul>
             </div>
           </div>
